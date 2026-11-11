@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>NFS Underground 2 Web</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            overflow: hidden;
+        }
+        #game {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="game"></div>
+
+    <script>
+        EJS_player = '#game';
+        EJS_core = 'gba';
+        EJS_gameUrl = 'jogo.gba';
+        EJS_pathtodata = 'https://emulatorjs.org';
+        EJS_startOnLoaded = true;
+    </script>
+    <script src="https://emulatorjs.orgloader.js"></script>
+</body>
+</html>
